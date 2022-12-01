@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    box-sizing: border-box;
+    width: 100%;
+}
+.header img{
+    width: 45px;
+    padding:15px 30px;
+}
+#hearder-navbar{
+    display: none;
+}
+
+.dropmenu{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 0px;
+    left: 86px;
+}
+.dropmenu a{
+    padding: 28px 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    margin: 2px 6px 1px;
+    font-size: 17px;
+}
+.dropmenu a:hover{
+    background-color: #04AA6D;
+    color: #FFFFFF;
+}
+.dropmenu a i{
+    position: absolute;
+    right: 1px;
+    top: 25px;
+}
+.dropdown-icon{
+    display: flex;
+    justify-content: right;
+    margin-left: 38px;
+}
+.dropdown-icon a{
+    
+margin-right: 7px;
+}
+.dropdown-icon a i{
+    margin-top: 5px;
+    font-size: 17px;
+}
+.dropdown-icon a:hover{
+    background-color: #FFFFFF;
+    color: #059862;
+}
+.dropdown-icon ul{
+    position: absolute;
+    font-weight: bold;
+    padding:10px 20px;
+    top: 67px;
+    padding-top: 20px;
+    border-radius: 6px;
+    display: none;
+    right: 315px;
+    list-style-type: none;
+    background-color: #fff;
+}
+.dropdown-icon ul i{
+    padding: 5px;
+    padding-left: 0;
+}
+.dropdown-icon #header-color{
+    background-color: #04AA6D;
+    background-color: #000;
+    margin: 16px 15px 15px 0;
+    text-align: center;
+    padding: 13px;
+    border-radius: 25px;
+    height: 18px;
+    width: 110px;
+}
+.dropdown-icon #header-color:nth-child(5){
+    color: #ffffff;
+    padding: 13px 17px;
+    width: auto;
+    margin-left: 15px;
+    background-color: #282A35;
+}
+.dropdown-icon #header-color:nth-child(5):hover{
+    background-color: #000000d3;
+}
+.dropdown-icon #header-color:nth-child(6){
+    background-color: #FFC0C7;
+    color: #000000;
+}
+.dropdown-icon #header-color:nth-child(6):hover{
+    background-color: #FFB3BB;
+}
+.dropdown-icon #header-color:nth-child(7){
+    background-color: #FFF4A3;
+    color: #000000;
+}
+.dropdown-icon #header-color:nth-child(7):hover{
+    background-color: #ecdd65;
+}
+.dropdown-icon #header-color:nth-child(8){
+    background-color: #04AA6D;
+    color: #ffffff;
+}
+.dropdown-icon #header-color:nth-child(8):hover{
+    background-color: #059862;
+}
+
+
+
+body{
+    background-color: gray;
+}

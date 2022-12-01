@@ -1,0 +1,409 @@
+@media screen and (max-width:480px) {
+    .dropmenu a,.dropdown-icon a{
+        display: none;
+    }
+
+    /* .dropdown-icon a:nth-child(2),a:nth-child(2){
+        display: block;
+        font-size: 20px;
+    } */
+    .dropdown-icon a:nth-child(3),
+    .dropdown-icon a:nth-child(4),
+    .dropdown-icon a:nth-child(8){
+        display: block;
+    }
+    /* .dropdown-icon a:nth-child(4){
+        display: block;
+    }
+    .dropdown-icon a:nth-child(8){
+        display: block;
+    } */
+    .header #hearder-navbar{
+        font-size: 16px;
+        display: block;
+        letter-spacing: 0.5px;
+        margin: auto;
+        margin-left: 0;
+    }
+    #hearder-navbar i{
+        top: 25px;
+        position: absolute;
+    }
+    .dropdown-icon #header-color:nth-child(8) {
+        padding: 13px 9px;
+        margin-left: 16px;
+    }
+                /* Learn Section */
+    .learn{
+        padding-top: 100px;
+    }
+    .learn input{
+        width: 61%;
+    }
+    .learn i{
+        right: 28px;
+        padding-left: 22px;
+    }
+    div .svg{
+        top: 497px;
+    }
+    .learn h1{
+        margin: auto;
+        font-size: 45px;
+    }
+    #learnH3{
+        color: #FFC0C7;
+        margin: 27px auto;
+        font-size: 19px;
+        margin-bottom: 36px;
+        padding: 0;
+        cursor: auto;
+        text-decoration: none;
+    }
+    .code{
+        display: none;
+    }
+    .html{
+        padding: 0;
+        padding-bottom: 50px;
+        height: 400px;
+    }
+    .html4{
+        padding-bottom: 100px;
+    }
+    .contain{
+        margin:0 auto;
+        width: 100%;
+    }
+    .contain h1{
+        margin-top: 60px;
+        font-size: 55px;
+    }
+    .html4 h1{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .container{
+        padding-top: 12%;
+    }
+    .php{
+        margin: 2% 1%;
+        width: 98%;
+    }
+    .table #colspan2{
+        width: 98%;
+        margin: 2% 1%;
+        background-color: #E9DF97;
+    }
+    .table #colspan2:first-child{
+        background-color: #E9B0B8;
+        margin-top: 15%;
+        padding: 2% 0;
+    }
+    .table #colspan2:nth-child(2){
+        padding: 2% 0;
+    }
+    .table #colspan2:first-child:hover{
+        background-color: #FFC0C7;
+    }
+    .table div{
+        width: 98%;
+        margin: 2% 1%;
+    }
+    .table #code{
+        font-weight: bolder;
+        color: white;
+        font-size: 53px;
+    }
+    .table h4{
+        width: 94%;
+        margin: auto;
+        color: white;
+        margin-top: 20px;
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 41px;
+    }
+    /* .table #colspan2:last-child{
+        padding-bottom: 15%;
+        background-color: transparent;
+    } */
+    .Vimage-navbar{
+        margin: auto;
+        width: 98%;
+    }
+    .video-image{
+        padding: 0 3% 3%;
+    }
+    .text h1 {
+        font-size: 3.5rem;
+    }
+    .text h4{
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .how-it-work h3 {
+        margin-top: -1px;
+    }
+    .how-it-work span{
+        margin-top: -1px;
+    }
+    .how-it-work h1{
+        line-height: 90px;
+        padding-top: 5rem;
+    }
+    .video-image img{
+        width: 98%;
+        margin: 0% 1%;
+    }
+    .video-image .Va{
+        width: 90%;
+        position: static;
+        padding-left: 5%;
+        text-align: left;
+        margin: 5% 1%;
+    }
+    .how-it-work h3 {
+        background-color: #282a35f1;
+        color: white;
+        font-size: 19px;
+        padding: 20px;
+        letter-spacing: 1px;
+        line-height: 35px;
+    }
+    .how-it-work a {
+        padding: 16px 30px;
+        margin-top: 15px;
+        width: 50%;
+    }
+    .my-learning h1 {
+        font-size: 3.5rem;
+    }
+    .my-learning p {
+        margin: 20px;
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .my-learning img {
+        width: 93%;
+    }
+    .my-learning a {
+        width: 55%;
+        font-size: 18px;
+    }
+    .pro_user h1 {
+        font-size: 50px;
+    }
+    .pro_user h4 {
+        font-size: 24px;
+    }
+    .pro_user ul li {
+        font-size: 18px;
+    }
+    .pro_user a{
+        width: 55%;
+    }
+    .how-it-work img {
+        width: 92%;
+    }
+    #how_it_work_image{
+        display: none;
+    }
+    .empty {
+        display: none;
+    }
+    .colorpicker h1{
+        font-size: 52px;
+        font-weight: 900;
+        padding-top: 90px;
+    }
+    .colorpicker h4{
+        margin-bottom: 10px;
+    }
+    .codegame h1{
+        font-size: 60px;
+    }
+    .codegame h2{
+        font-size: 27px;
+    }
+    .codegame img{
+        height: 200px;
+        width: auto;
+    }
+    .codegame a{
+        margin: auto;
+        margin-top: 10px;
+        position: initial;
+    }
+    .skilltest div{
+        padding-bottom: 30px;
+    }
+    .skilltest h4{
+        margin-bottom: 50px;
+    }
+    .skilltest div a{
+        padding: 16% 0;
+        margin-bottom: 35px;
+        display: inline-block;
+        width: 81%;
+    }
+    .templates h4{
+    font-size: 18px;
+    margin: 22px;
+    line-height: 28px;
+    margin-bottom: 26px;
+    }
+    .templates img {
+        width: 93%;
+    }
+    .templates a{
+        position: static;
+        width: 47%;
+    }
+    .rotate-logo h1{
+        font-size: 46px;
+        padding: 10% 8%;
+    }
+    .rorate-logo{
+        padding: 12% 13% 18%;
+    }
+    .rorate-logo h1{
+        padding: 0;
+        font-size: 49px;
+        line-height: 80px;
+    }
+    .rorate-logo h2{
+        padding-top: 50px;
+        line-height: 60px;
+        font-size: 35px;
+    }  
+    #doodle_arrow{
+        display: none;
+    }
+    .rorate-logo a{
+        padding: 20px 130px;
+    }
+    .rotate-Section img{
+        width: 20%;
+        height: auto;
+        top: -50px;
+        right: -36px;
+    }
+    .rotate-text h1{
+        padding-top: 80px;
+    }
+    .slider {
+        margin: auto;
+        margin-top: 80px;
+        width: 90%;
+    }
+    .slider-image img{
+        width: 97.2%;
+    }
+    .slider-contain .color {
+        padding-top: 15px;
+        padding-left: 13px;
+        border-radius: 5px;
+        background-color: #F1F1F1;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 97%;
+    }
+    .slider-contain span {
+        padding: 5px 0px 5px 5px;
+    }
+    .slider-image a {
+        top: 35%;
+    }
+    .slider-page-icon div{
+    margin-right: 5px;
+    }
+    .slider-image h6{
+        left: 40%;
+    }
+    .slider-stand {
+        height: 45px;
+    }
+    #slider-how-to-learn {
+        width: 63%;
+    }
+                /* Footer Section */
+
+    .footer {
+        margin-top: 0;
+    }
+    .footer p{
+        font-size: 13px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .btn_need{
+        text-align: center;
+        margin: 18px auto;
+        display: block;
+        position: static;
+    }
+    .btn_need a{
+        margin: 6% auto 3%;
+        margin-bottom: 10px;
+        width: 15%;
+        text-align: center;
+    }
+    #btn-1{
+        margin-left: 4.8%;
+    }
+    .btn {
+        margin: auto;
+        text-align: center;
+    }
+    #btn-6,#btn-1,#btn-2,#btn-8{
+        display: none;
+    }
+    #btn-4,#btn-5,#btn-3,#btn-7{
+        width: 60%;
+        text-align: center;
+        margin: 18px auto;
+        display: block;
+        position: static;
+    }
+    .btn #about{
+        display: none;
+    }
+    #btn-9,#btn-10{
+        background-color: transparent;
+        color: #ffffffd4;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 3%;
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .btn #about{
+        float: left;
+    }
+    .footer-icon {
+        margin: 2% 7%;
+    }
+}
+ 
+ /*Start Responsive for Mobile*/
+    /*Start Responsive for Mobile*/
+        /*Start Responsive for Mobile*/
+            /*Start Responsive for Mobile*/
+                /*Start Responsive for Mobile*/
+                    /*Start Responsive for Mobile*/
+                        /*Start Responsive for Mobile*/
+                            /*Start Responsive for Mobile*/
+                                /*Start Responsive for Mobile*/
+                                    /*Start Responsive for Mobile*/
+                                        /*Start Responsive for Mobile*/
+                                    /*Start Responsive for Mobile*/
+                                /*Start Responsive for Mobile*/
+                            /*Start Responsive for Mobile*/
+                        /*Start Responsive for Mobile*/
+                    /*Start Responsive for Mobile*/
+                /*Start Responsive for Mobile*/
+            /*Start Responsive for Mobile*/
+        /*Start Responsive for Mobile*/
+    /*Start Responsive for Mobile*/
+/*Start Responsive for Mobile*/
